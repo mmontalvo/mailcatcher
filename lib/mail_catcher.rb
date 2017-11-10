@@ -2,7 +2,7 @@
 # repeat the invention of Bundler all over again.
 gem "eventmachine", "1.0.9.1"
 gem "mail", "~> 2.3"
-gem "rack", "~> 1.5"
+gem "rack", "~> 2.0.3"
 gem "sinatra", "~> 1.2"
 gem "sqlite3", "~> 1.3"
 gem "thin", "~> 1.5.0"
