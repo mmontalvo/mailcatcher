@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "eventmachine"
   s.add_dependency "mail"
-  s.add_dependency "rack"
+  s.add_dependency "rack", "2.0.3"
   s.add_dependency "sinatra"
   s.add_dependency "sqlite3"
   s.add_dependency "thin"
@@ -45,8 +45,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rdoc"
   s.add_development_dependency "sass"
   s.add_development_dependency "selenium-webdriver"
-  s.add_development_dependency "sprockets"
-  s.add_development_dependency "sprockets-sass"
-  s.add_development_dependency "sprockets-helpers"
   s.add_development_dependency "uglifier"
 end
