@@ -1,12 +1,12 @@
 # Apparently rubygems won't activate these on its own, so here we go. Let's
 # repeat the invention of Bundler all over again.
-gem "eventmachine", "1.0.9.1"
-gem "mail", "~> 2.3"
+gem "eventmachine"
+gem "mail"
 gem "rack", "~> 2.0.3"
-gem "sinatra", "~> 1.2"
-gem "sqlite3", "~> 1.3"
-gem "thin", "~> 1.5.0"
-gem "skinny", "~> 0.2.3"
+gem "sinatra"
+gem "sqlite3"
+gem "thin"
+gem "skinny"
 
 require "open3"
 require "optparse"
